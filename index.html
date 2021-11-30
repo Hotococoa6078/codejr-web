@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="jr">
-<head>
-    <meta charset="UTF-8">
-    <title>sakura</title>
-    <meta name='description' content='utsukushi'>
-</head>
-<body>
-    <h1>utsukushi</h1>
-    <p>utsukushiwomitemanabimasyou</p>
-    <img src="sakura.jpg" alt='utsukushi' width="100%"><br>
-    <table border="1">
+    <head>
+        <meta charset="UTF-8">
+        <title>sakura</title>
+        <script src="jquery-latest.min.js"></script>
+        <meta name='description' content='utsukushi'>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <div>
+            <button onclick="slideToggle();">Test Button</button>
+        </div>
+        <div class="container">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+        <h1>utsukushi</h1>
+        <p>utsukushiwomitemanabimasyou</p>
+        <img src="sakura.jpg" alt='utsukushi' width="100%"><br>
         <tr>
             <th>??</th>
             <th>????</th>
@@ -26,30 +36,30 @@
             <td>kanhizakura</td>
             <td>1~2</td>
         </tr>
-    </table>
-    <h3>?????????????????????????????</h3>
-    <form action="c042068.y@gmail.com" method="post" name="contact-form">
-        name : <input type="text" placeholder="?? ??"><br>
-        mail : <input type="email" placeholder="abc@gmail.com"><br>
-        電話 : <input type="email" placeholder="011-123-1234"><br>
-        address :
-        <input type="radio" name="gender" value="male">male
-        <input type="radio" name="gender" value="female">female
-        <input type="radio" name="gender" value="other">other
-        A B AB O :
-        <input type="checkbox" name="blood type" value="A" checked>A
-        <input type="checkbox" name="blood type" value="B" checked>B
-        <input type="checkbox" name="blood type" value="AB" checked>AB
-        <input type="checkbox" name="blood type" value="O" checked>O<br>
-        address :
-        <select name="home">
-            <option value="      "></option>
-            <option value="hokkaido"></option>
-            <option value="aomori"></option>
-            <option value="miyagi"></option>
-        </select><br>
-            <textarea name="message" placeholder="input message"></textarea><br>
-        <input type="submit" value="send">
-    </form>
-</body>
+        <h3>?????????????????????????????</h3>
+        <form action="c042068.y@gmail.com" method="post" name="contact-form">
+            name : <input type="text" placeholder="?? ??"><br>
+            mail : <input type="email" placeholder="abc@gmail.com"><br>
+            電話 : <input type="email" placeholder="011-123-1234"><br>
+            address :
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="other">other
+            A B AB O :
+            <input type="checkbox" name="blood type" value="A" checked>A
+            <input type="checkbox" name="blood type" value="B" checked>B
+            <input type="checkbox" name="blood type" value="AB" checked>AB
+            <input type="checkbox" name="blood type" value="O" checked>O<br>
+            address :
+            <select name="home">
+                <option value="      "></option>
+                <option value="hokkaido"></option>
+                <option value="aomori"></option>
+                <option value="miyagi"></option>
+            </select><br>
+                <textarea name="message" placeholder="input message"></textarea><br>
+            <input type="submit" value="send">
+        </form>
+        <script src="main.js?ver=1.0"></script>
+    </body>
 </html>

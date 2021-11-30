@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 200px 200px;
+}
+.item{
+    background: #0bd;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    background-color: rgba(250, 191, 135, 0.822);
+}
+html{
+    color: #ba55d3; font-size: 100%; font-family: serif;
+}
+h1{
+    font-size: 3rem; font-weight: bold;
+}
+p{
+    font-size: 1.7rem; background-color: rgba(130, 145, 230, 0.322); width: 470px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
